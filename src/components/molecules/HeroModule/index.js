@@ -1,7 +1,8 @@
 import React from "react";
-import logo from "../../../assets/images/logo-branco.png";
-import wpp from "../../../assets/images/whatsapp.png";
-import insta from "../../../assets/images/instagram.png";
+
+import logo from "assets/images/logo-branco.png";
+import wpp from "assets/images/whatsapp.png";
+import insta from "assets/images/instagram.png";
 
 function HeroModule() {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
-import { Container } from "../../atoms/Container";
+import { Container } from "components/atoms/Container";
 
-import shield from "../../../assets/images/icon-white-shield.png";
-import wallet from "../../../assets/images/icon-white-wallet.png";
-import pin from "../../../assets/images/icon-white-pin.png";
+import shield from "assets/images/icon-white-shield.png";
+import wallet from "assets/images/icon-white-wallet.png";
+import pin from "assets/images/icon-white-pin.png";
 
 const ITEMS = [
   {
@@ -28,7 +28,7 @@ const ITEMS = [
 
 function AboutUsModule() {
   return (
-    <div className="bg-[#333] py-[70px] overflow-hidden">
+    <div className="bg-[#1f1f1f] py-[70px] overflow-hidden">
       <Container
         width={["750px", null, "1170px"]}
         justifyContent="center"
@@ -43,7 +43,9 @@ function AboutUsModule() {
                   <i className="icon">
                     <img src={item.image} alt="" />
                   </i>
-                  <h3 className="text-2xl font-bold relative left-[-16px] top-[12px]">{item.title}</h3>
+                  <h3 className="text-2xl font-bold relative left-[-16px] top-[12px]">
+                    {item.title}
+                  </h3>
                 </div>
 
                 <div className="mt-5">

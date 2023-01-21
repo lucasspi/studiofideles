@@ -1,5 +1,5 @@
-import { HeroModule, AboutUsModule } from "./components";
-import "./assets/styles/App.scss";
+import { HeroModule, AboutUsModule } from "components";
+import "assets/styles/App.scss";
 
 function App() {
   return (
