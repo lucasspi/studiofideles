@@ -18,7 +18,7 @@ function HeroModule() {
           href="https://instagram.com/vicente.fideles?igshid=YmMyMTA2M2Y="
           target="_blank"
           rel="noreferrer"
-          className="flex items-center"
+          className="flex items-center cursor-pointer"
         >
           <img src={insta} className="insta-logo" alt="Instagram Logo" />
           <span className="text-white pl-2 tracking-widest text-xs">
